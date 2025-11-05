@@ -1,5 +1,6 @@
 package lista7;
 
+
 public class livro extends produto {
 	  private String autor;
 	    private int quantidadePaginas;
@@ -19,6 +20,7 @@ public class livro extends produto {
 	        System.out.println("Autor: " + autor);
 	        System.out.println("Quantidade de páginas: " + quantidadePaginas);
 	        System.out.println("É pequeno: " + (ehPequeno() ? "Clarinho que sim" : "Não né bb"));
+	        System.out.println();//para dar um espaço
 	      
 	    }
 

@@ -9,7 +9,7 @@ public class main {
         System.out.println("CADASTRO DE CARRO");
         carro carro = new carro("Fusca", 15000, 4, 2);
         carro.exibirInformacoes();
-        
+        System.out.println();
         System.out.println("EXECUÇÃO DOS MÉTODOS");
         System.out.println("O livro '" + livro.getNome() + "' é barato? " + livro.ehBarato());
         System.out.println("O livro '" + livro.getNome() + "' é pequeno? " + livro.ehPequeno());

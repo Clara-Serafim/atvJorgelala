@@ -14,6 +14,7 @@ public class carro extends produto {
     public boolean ehBarato() {
         return getPreco() < 10000;
     }
+    @Override
     public void exibirInformacoes() {
         super.exibirInformacoes();
         System.out.println("Quantidade de rodas: " + quantidadeRodas);
