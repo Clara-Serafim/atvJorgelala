@@ -9,6 +9,7 @@ public class carro extends produto {
         this.quantidadeRodas = quantidadeRodas;
         this.quantidadePortas = quantidadePortas;
     }
+    @Override
     
     public boolean ehBarato() {
         return getPreco() < 10000;
@@ -19,5 +20,21 @@ public class carro extends produto {
         System.out.println("Quantidade de portas: " + quantidadePortas);
       
     }
+
+	public int getQuantidadeRodas() {
+		return quantidadeRodas;
+	}
+
+	public void setQuantidadeRodas(int quantidadeRodas) {
+		this.quantidadeRodas = quantidadeRodas;
+	}
+
+	public int getQuantidadePortas() {
+		return quantidadePortas;
+	}
+
+	public void setQuantidadePortas(int quantidadePortas) {
+		this.quantidadePortas = quantidadePortas;
+	}
 }
 

@@ -3,7 +3,7 @@ package lista7;
 public class main {
     public static void main(String[] args) {
         System.out.println("CADASTRO DE LIVRO");
-        livro livro = new livro("NUNCA MINTA", 35.90, "A EMPREGADA", 256);
+        livro livro = new livro("NUNCA MINTA", 35.90, "Freida MCfadden", 336);
         livro.exibirInformacoes();
         
         System.out.println("CADASTRO DE CARRO");

@@ -16,7 +16,7 @@ public class produto {
     public void exibirInformacoes() {
         System.out.println("Nome: " + nome);
         System.out.println("Preço: R$ " + preco);
-        System.out.println("É barato: " + (ehBarato() ? "Sisi" : "nope"));
+        System.out.println("É barato: " + (ehBarato() ? "Simsim" : "nope"));
     }
     
     public String getNome() { return nome; }
